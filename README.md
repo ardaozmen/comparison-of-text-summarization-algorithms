@@ -40,10 +40,10 @@ This is a final project.
 </table>
 <h3>References</h3>
 <ul>
-	<li><a href="url">https://www.analyticsvidhya.com/blog/2018/11/introduction-text-summarization-textrank-python/</a></li>
-	<li><a href="url">https://www.kaggle.com/sandeepbhogaraju/text-summarization-with-seq2seq-model/notebook</a></li>
-	<li><a href="url">https://huggingface.co/transformers/task_summary.html</a></li>
-	<li><a href="url">https://fastapi.tiangolo.com/</a></li>
+	<li><a href="https://www.analyticsvidhya.com/blog/2018/11/introduction-text-summarization-textrank-python/">https://www.analyticsvidhya.com/blog/2018/11/introduction-text-summarization-textrank-python/</a></li>
+	<li><a href="https://www.kaggle.com/sandeepbhogaraju/text-summarization-with-seq2seq-model/notebook">https://www.kaggle.com/sandeepbhogaraju/text-summarization-with-seq2seq-model/notebook</a></li>
+	<li><a href="https://huggingface.co/transformers/task_summary.html">https://huggingface.co/transformers/task_summary.html</a></li>
+	<li><a href="https://fastapi.tiangolo.com/">https://fastapi.tiangolo.com/</a></li>
 </ul>
 </body>
 </html>
