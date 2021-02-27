@@ -1,5 +1,5 @@
 # comparison-of-text-summarization-algorithms
-This is a final project.
+This is a final project. This project is aimed for deep learning and text summarization exercises.
 
 <!DOCTYPE html>
 <html>
