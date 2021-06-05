@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary Monster</title>
+    <link rel="shortcut icon" href="summary-monster.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: lightgray;
+        }
+
+        .main {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .container {
+
+            padding: 10px;
+        }
+
+        select {
+            outline: none;
+            opacity: 0.7;
+            border-radius: 8px;
+            background-color: transparent;
+            margin-bottom: 0.8rem;
+        }
+
+        textarea {
+            resize: none;
+            border-radius: 16px;
+            padding: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            opacity: 0.5;
+            outline: none;
+            background-image: url("lets-summarize-it.jpeg");
+
+        }
+
+        input {
+            border-radius: 8px;
+            background-color: transparent;
+            font-weight: 500;
+            line-height: 2;
+            margin-top: 0.8rem;
+            width: 150px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <form method="POST">
+            <div class="container">
+                <select name="values" id="values" required>
+                    <option value="" disabled selected hidden>Select Model</option>
+                    <option name="textrank" value="textrank">TextRank</option>
+                    <option name="t5" value="t5">T5</option>
+                    <option name="tr5" value="tr5">Turkish T5</option>
+                    <option name="seq2seq" value="seq2seq">Seq2seq</option>
+                    <option name="seq2seqen" value="seq2seqen">Seq2seqen</option>
+                </select>
+
+                <textarea id="text0" name="text0" placeholder="Enter your text here..." rows="14" cols="100%"
+                    required></textarea>
+                <input type="submit" value="Summarize">
+                <input type="reset" value="Reset">
+
+
+            </div>
+            <div>
+
+                <p>{{ summary }}</p>
+
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
